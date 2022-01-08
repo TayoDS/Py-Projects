@@ -1,0 +1,8 @@
+account_balance = 500 #Account balance from where money is deducted
+savings_balance = 100 #Savings balance where deducted money is added as long as savings has not reached a target of 200,000
+
+if savings_balance < 200000: #Savings being target of 200,000 is set as condition
+    savings_balance +=100
+    account_balance -=100
+
+print(account_balance, savings_balance)
