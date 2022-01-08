@@ -1,0 +1,28 @@
+#First code
+
+points = 174
+if points <= 50:
+    print("Result: " + "Congratulations! You won a Wooden Rabbit")
+elif 51 >= points <=150:
+    print('Result: ' + 'Oh dear, no prize this time.')
+elif 151 <= points <=180:
+    print("Result: " + "Congratulations! You won a wafer-thin mint")
+elif 181 >= points <=200:
+     print("Result: " + "Congratulations! You won a penguin")
+else:
+    print(stop)
+    
+ #Second code
+ 
+ points = 174
+
+if points <= 50:
+    result = "Congratulations! You won a wooden rabbit!"
+elif points <= 150:
+    result = "Oh dear, no prize this time."
+elif points <= 180:
+    result = "Congratulations! You won a wafer-thin mint!"
+else:
+    result = "Congratulations! You won a penguin!"
+
+print(result)
